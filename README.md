@@ -1,34 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/BrunoCarvalhoFeitosa/Spotify">
+    <img src="/public/images/logo.png" alt="Logo" />
+  </a>
 
-## Getting Started
+  <p align="center">
+    Clone e redesign do Spotify utilizando Next.js, Styled Components e a própria api da plataforma. 
+  </p>
+</p>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#feito-com">Feito com</a></li>
+        <li><a href="#hospedagem">Hospedagem</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#iniciando-o-projeto">Iniciando o projeto</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#uso">Uso</a></li>
+    <li><a href="#license">Licenças</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="#reconhecimentos">Reconhecimentos</a></li>
+  </ol>
+</details>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<!-- ABOUT THE PROJECT -->
+## Sobre o projeto
+Este app foi feito com Next.js, possuindo duas páginas, a primeira é uma landing page apresentando as vantagens de se ter e usar o Spotify e a segunda é o clone em si utilizando a api para login, logout e listagem das minhas playlists criadas dentro da plataforma original.
 
-## Learn More
+## Página introdutória Spotify
 
-To learn more about Next.js, take a look at the following resources:
+https://user-images.githubusercontent.com/46093815/173207969-f40316bb-3fb2-47d8-b9e4-ea7c1dccb4bd.mp4
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Página clone Spotify
 
-## Deploy on Vercel
+https://user-images.githubusercontent.com/46093815/173207926-04d2cd6b-b259-4192-be3c-22df6c2d0156.mp4
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Feito com
+
+* [Next.js](https://nextjs.org/)
+* [Styled Components](https://styled-components.com/)
+* [Spotify Api](https://developer.spotify.com/documentation/web-api/)
+* [Vercel](https://vercel.com/)
+
+### Hospedagem
+
+O app será publicado em breve.
+
+<!-- GETTING STARTED -->
+## Iniciando o projeto
+
+Primeiramente será necessário clonar este projeto em (https://github.com/BrunoCarvalhoFeitosa/Spotify.git), após o download será necessário abrir este projeto no seu
+editor e no terminal digitar npm install ou yarn, posteriormente é só rodar em seu terminal o comando npm run dev ou yarn dev, clique no link gerado em seu terminal tudo está pronto para você visualizar localmente o projeto.
+
+### Pré-requisitos
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Instalação
+
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/BrunoCarvalhoFeitosa/Spotify.git
+   ```
+2. Instale os pacotes do NPM
+   ```sh
+   npm install ou yarn
+   ```
+   
+3. Inicie o projeto
+   ```sh
+   npm run dev ou yarn dev
+   ```   
+
+<!-- LICENSE -->
+## License
+
+Distribuído sob a licença MIT.
+
+<!-- CONTACT -->
+## Contato
+
+Bruno Carvalho Feitosa - [GitHub](https://github.com/BrunoCarvalhoFeitosa) - [LinkedIn](https://www.linkedin.com/in/bruno-carvalho-feitosa/)
