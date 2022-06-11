@@ -33,7 +33,7 @@ const CenterContent = () => {
         setPlaylist(data.body);
       })
       .catch((error) => console.error('A error ocurred while the playlist is fetched.', error));
-  }, [spotifyApi, playlistId]);
+  }, [spotifyApi, playlistId, setPlaylist]);
 
   return (
     <S.CenterContentContainer>

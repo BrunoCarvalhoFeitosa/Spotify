@@ -3,7 +3,7 @@ import CenterContent from '../components/App/CenterContent';
 import Sidebar from '../components/App/Sidebar';
 import Player from '../components/App/Player';
 
-import * as S from '../pages/styles/App'; 
+import * as S from '../pageStyles/App'; 
 
 const App = () => {
   return (

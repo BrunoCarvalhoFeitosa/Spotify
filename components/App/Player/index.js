@@ -47,7 +47,7 @@ const Player = () => {
       fetchCurrentSong();
       setVolume(50);
     }
-  }, [currentTrackIdState, spotifyApi, session]);
+  }, [spotifyApi, session, currentTrackId, fetchCurrentSong]);
 
   useEffect(() => {
     if (volume > 0 && volume < 100) {

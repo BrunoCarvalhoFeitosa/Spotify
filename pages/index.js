@@ -14,7 +14,7 @@ import ImageFiftyCent from '/public/images/album-artist01.jpg';
 import imageBillieEilish from '/public/images/album-artist02.jpg';
 import ImageEminem from '/public/images/album-artist03.jpg';
 
-import * as S from '../pages/styles/Index';
+import * as S from '../pageStyles/Index';
 
 const Home = ({ providers }) => {
   const audioPlayerFirst = useRef(null);
@@ -581,7 +581,7 @@ const Home = ({ providers }) => {
             <p>Crie sua conta e em menos de 5 minutos tenha acesso à músicas e podcasts de alta qualidade que te acompanharão aonde você estiver. Crie suas playlists e ouça em casa, na rua ou no trabalho, compartilhe seu bom-gosto musical com seus amigos.</p>
           </S.CreateAccountContainerDescription>
           <S.CreateAccountContainerButton>
-            <Link href='https://www.spotify.com/br/signup'>
+            <Link href='https://www.spotify.com/br/signup' passHref>
               <span>
                 <Image
                   src={ImageSpotify}
