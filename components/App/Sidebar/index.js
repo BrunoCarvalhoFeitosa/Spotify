@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRecoilState } from 'recoil';
 import useSpotify from '../../../hooks/useSpotify';
-import { playlistIdState } from '../../../atoms/playListAtom';
+import { playlistIdState } from '../../../atoms/playlistAtom';
 
 import * as S from './style';
 

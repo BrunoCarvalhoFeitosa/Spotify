@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { shuffle } from 'lodash';
 import { useRecoilState, useRecoilValue } from 'recoil';
-import { playlistState, playlistIdState } from '../../../atoms/playListAtom';
+import { playlistState, playlistIdState } from '../../../atoms/playlistAtom';
 import useSpotify from '../../../hooks/useSpotify';
 import Search from '../Search';
 import UserInformations from '../UserInformations';
