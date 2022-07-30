@@ -35,6 +35,12 @@ export const PlayerContainerWrapperAlbumCover = styled.div`
     }
 `;
 
+export const PlayerContainerWrapperAlbumCoverNotFound = styled.p`
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+`;
+
 export const PlayerContainerWrapperAlbumDetails = styled.div`
     h4 {
         margin: 0 0 2px;

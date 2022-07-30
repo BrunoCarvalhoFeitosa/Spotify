@@ -66,7 +66,17 @@ const Player = () => {
       <S.PlayerContainerWrapper>
         <S.PlayerContainerWrapperAlbum>
             <S.PlayerContainerWrapperAlbumCover>
-              <img src={songInfo?.album?.images?.[0]?.url} />
+              {songInfo?.album?.images?.[0]?.url ? (
+                <img
+                  src={songInfo?.album?.images?.[0]?.url}
+                  alt={songInfo?.album?.images?.[0]?.url}
+                  title={songInfo?.album?.images?.[0]?.url}
+                />
+              ) : (
+                <S.PlayerContainerWrapperAlbumCoverNotFound>
+                  Nenhum som tocando
+                </S.PlayerContainerWrapperAlbumCoverNotFound>
+              )}
             </S.PlayerContainerWrapperAlbumCover>
             <S.PlayerContainerWrapperAlbumDetails>
               <h4>{songInfo?.name}</h4>
